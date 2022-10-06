@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2e4b9e376bd147d7b9f722b9358ba62f" Name="Diagram1" ZoomLevel="100">
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Rol" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Usuario" Width="1.625" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Aseguradora" Width="1.5" PointX="5.375" PointY="1.875" />
+        <AssociationConnector Association="AMedinaProgramacionNCapasModel1.FK__Asegurado__Id_Us__5FB337D6" />
+        <AssociationConnector Association="AMedinaProgramacionNCapasModel1.FK__Usuario__Idrol__36B12243" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Colonia" Width="1.5" PointX="12.125" PointY="6.125" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Direccion" Width="1.5" PointX="14.375" PointY="3.375" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Estado" Width="1.5" PointX="7.625" PointY="6.25" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Municipio" Width="1.5" PointX="9.875" PointY="6.25" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Pai" Width="1.5" PointX="5.375" PointY="6.375" />
+        <AssociationConnector Association="AMedinaProgramacionNCapasModel1.FK__Colonia__IdMunic__70DDC3D8" />
+        <AssociationConnector Association="AMedinaProgramacionNCapasModel1.FK__Direccion__IdCol__76969D2E" />
+        <AssociationConnector Association="AMedinaProgramacionNCapasModel1.FK__Direccion__Id_Us__778AC167" />
+        <AssociationConnector Association="AMedinaProgramacionNCapasModel1.FK__Estado__IdPais__6B24EA82" />
+        <AssociationConnector Association="AMedinaProgramacionNCapasModel1.FK__Municipio__IdEst__6E01572D" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Empleado" Width="1.5" PointX="9.625" PointY="1" />
+        <EntityTypeShape EntityType="AMedinaProgramacionNCapasModel1.Empresa" Width="1.5" PointX="7.375" PointY="1.625" />
+        <AssociationConnector Association="AMedinaProgramacionNCapasModel1.FK__Empleado__IdEmpr__22751F6C" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
